@@ -4,7 +4,7 @@
 
 #define PI 3.14159265358979323846
 
-const int n = 200;
+const int n = 300;
 typedef short unsigned int byte;
 const int winSize = 700;
 
@@ -39,7 +39,7 @@ int main()
 		pointShapes[i].setPosition(points[i]);
 	}
 
-	uint16_t k = 34;
+	uint16_t k = 2;
 	updateVertexArray(k);
 
 	sf::Clock clock;
